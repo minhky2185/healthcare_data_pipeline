@@ -26,7 +26,7 @@ The architecture of this project is presented as follows:
 - Raw data is cleansed and standardized before moving to `cleansed zone`.
 - Cleansed data is transformed into reportable form and loaded into `curated zone`. 
 - Publish data from `curated zone` to Data read storage for higher performance report when connection from BI Tool.
-- Reports are created in Power BI from the data MySQL.
+- Reports are created in Power BI from the data in MySQL.
 
 
 ## **Data Source**
